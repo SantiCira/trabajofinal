@@ -9,8 +9,10 @@
     <body>
 <div id="Contenido">
         <div id="col-izq">
-            <h1>PC Gamer completa ryzen5 5600G 16GB 480GB SSD.</h1>
-            <img id="pc" src="pc.png" alt="PcGamer">
+            <h1>PC Gamer completa ryzen5 5600G 16GB 480GB SSD</h1>
+            <div class="imgpc">
+                <img id="pc" src="pc.png" alt="PcGamer">
+            </div>
         </div>
 
     <div id="col-der">
@@ -40,11 +42,15 @@
             </div>
             <div class="info-Oferta">
                 <div class="icono">
-                    
+                    <img class="icono" src="oferta.png" alt="OfertaDisp">
                 </div>
                 <div class="texto">
                     <p>Oferta con la compra de un monitor $110000<br></p>
                 </div>
+            </div>
+
+            <div class="boton">
+            <a href="./formulario.php" target="_blank">Comprar</a>
             </div>
     </div>
 </div>
